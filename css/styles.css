@@ -159,13 +159,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .product strong{
+<<<<<<< HEAD
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 0.875em;
 	color: #cc0000;
 }
 
+.product h2{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 1.3125em;
+	text-decoration: underline;
+}
+
+=======
+	color: #cc0000;
+}
+
+>>>>>>> origin/master
 .product p{
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	color:#232323;
 	font-size: 0.875em;
+<<<<<<< HEAD
+	line-height: 1.4;
+=======
+>>>>>>> origin/master
 }
 
 /*****	CUSTOMER SECTION	***********/
