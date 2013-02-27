@@ -230,8 +230,9 @@ nav li a.signin:hover{
 /*****	ABOUT SECTION	***********/
 
 
-.about{
-
+.about a:hover{
+	color:#6699cc;
+	text-decoration: underline;
 }
 
 .value{
