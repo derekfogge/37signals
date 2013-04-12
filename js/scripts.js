@@ -42,11 +42,17 @@ $(document).ready(function () {
 		console.log('mouseover product');
 	});
 
+
+//This keeps the product headline visible when you mouseover
+
 	$('.product-headline').mouseover(function () {
 		$(mainHeadline).stop().hide();
 		$(productHeadline).stop().show();
 		console.log('mouseover headline');
 	});
+
+
+//These give you time to move the mouse over the product headline before it is set to hide and the main headline is shown again
 
 	$(product).mouseleave(function (){
 		$(productHeadline).stop().delay(1000).hide(0);
