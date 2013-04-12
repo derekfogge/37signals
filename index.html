@@ -42,15 +42,43 @@
 
         <section class="products">
 
-          <h1>Making collaboration productive and
-              enjoyable for people every day.
-          </h1>
+          <div class="headline-group">
+              <div id="headline">
+                <h1>Making collaboration productive and
+                  enjoyable for people every day.
+                </h1>
 
-          <p>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</p>
+                <p>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</p>
+              </div>
+
+              <div id="headline-basecamp" class="product-headline basecamp">
+                <h1><a href>Basecamp</a> is the project management tool you
+                  wish you had on your last project.
+                </h1>
+
+                <p>Are you still managing projects with email? Are you still using Excel for your to-do lists? It’s time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</p>
+              </div>
+
+              <div id="headline-highrise" class="product-headline highrise">
+                <h1><a href>Highrise</a> remembers the important things
+                  about people you’d normally forget.
+                </h1>
+
+                <p>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</p>
+              </div>
+
+              <div id="headline-campfire" class="product-headline campfire">
+                <h1>From near or far, <a href>Campfire</a> helps teams
+                  work together over the web in real-time.
+                </h1>
+
+                <p>Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It’s game changing. We couldn’t run our own business without Campfire.</p>
+              </div>
+            </div><!--end headline group-->
 
         <div class="group">
           <a href="#">
-              <div class="product basecamp">
+              <div class="product" id="basecamp">
                 <img src="images/basecamp.png" />
                 <h2>Basecamp</h2>
                 <strong>Manage Projects</strong>
@@ -58,8 +86,8 @@
               </div>
             </a>
 
-          <a href="#">
-              <div class="product highrise">
+            <a href="#">
+              <div class="product" id="highrise">
                 <img src="images/highrise.png" />
                 <h2>Highrise</h2>
                 <strong>Manage Contacts</strong>
@@ -68,7 +96,7 @@
             </a>
 
             <a href="#">
-              <div class="product basecamp">
+              <div class="product" id="campfire">
                 <img src="images/campfire.png" />
                 <h2>Campfire</h2>
                 <strong>Work in Real-Time</strong>
@@ -190,7 +218,10 @@
 
   </div> <!-- end wrapper -->
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
   <script src="js/scripts.js" type="text/javascript"></script>
+
+
 
 
   </body>

@@ -120,6 +120,20 @@ nav li a.signin:hover{
 
 /*****	PRODUCT SECTION	***********/
 
+.headline-group{
+	height: 200px;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.product-headline{
+	display:none;
+}
+
+.product-headline h1{
+	font-size: 2.875em;
+}
+
 .product{
 	float: left;
 	text-align: center;
@@ -295,7 +309,7 @@ hr{
 	background:url('../images/img-hr.png') no-repeat center;
 	border: 0;
 	height:12px;
-	margin: 30px;
+	margin: 40px;
 }
 
 
